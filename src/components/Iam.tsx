@@ -36,6 +36,14 @@ const Iam = () => {
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
+            <ExternalLink href='https://www.atiladev.com/'>
+              - AtilaDev
+            </ExternalLink>
+            : Proyecto propio. Desarrollo de soluciones informáticas web y
+            móviles usando ReactJS / React Native.
+          </Text>
+
+          <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://pabloheinig.com/'>
               - Pablo Heinig
             </ExternalLink>
