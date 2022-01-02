@@ -102,7 +102,7 @@ const Iam = () => {
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             Me encanta viajar, conocer gente, aprender y compartir ideas. Si
-            estas interesado en trabajar conmigo o simplemente conversar, ¡no
+            estás interesado en trabajar conmigo o simplemente conversar, ¡no
             dudes en contactarme!
           </Text>
         </VStack>
