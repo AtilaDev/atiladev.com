@@ -1,5 +1,4 @@
-import { Iam } from '../src/components';
-import { Contact } from '../src/components';
+import { Iam, Contact } from '../src/components';
 
 const IndexPage = () => (
   <>

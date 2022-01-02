@@ -1,5 +1,5 @@
 import NextLink from 'next/link';
-import { Box, Flex, HStack, Link, Text } from '@chakra-ui/react';
+import { Box, Flex, HStack, Link } from '@chakra-ui/react';
 
 import Logo from './Logo';
 

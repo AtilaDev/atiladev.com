@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Box, Container, VStack } from '@chakra-ui/react';
 
 import Navigation from '../components/Navigation';
+import Footer from './Footer';
 
 const meta = {
   title: 'Leandro Favre – Software Developer',
@@ -59,6 +60,7 @@ const MainLayout = ({ children }: any) => {
         <VStack spacing={16} flex={1} w='full' as='main' mb={16}>
           {children}
         </VStack>
+        <Footer />
       </Container>
     </Box>
   );
