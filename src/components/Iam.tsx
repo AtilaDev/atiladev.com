@@ -82,7 +82,7 @@ const Iam = () => {
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://icons.expo.fyi/'>- Icons</ExternalLink>:
-            Utilidad que desarrollé para colaborar el Framework{' '}
+            Utilidad que desarrollé para colaborar con el Framework{' '}
             <ExternalLink href='https://expo.dev/'>Expo</ExternalLink>. Contiene
             filtros y atajos por teclado, facilitando el manejo de la utilidad.
           </Text>
@@ -92,7 +92,7 @@ const Iam = () => {
               - Directory
             </ExternalLink>
             : Utilidad que desarrollé para buscar Google Fonts usando la
-            libreria{' '}
+            librería{' '}
             <ExternalLink href='https://github.com/expo/google-fonts'>
               @expo-google-fonts
             </ExternalLink>
