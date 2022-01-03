@@ -48,8 +48,8 @@ const Iam: React.FC = () => {
             <ExternalLink href='https://pabloheinig.com/'>
               - Pablo Heinig
             </ExternalLink>
-            : Desarrollé 11 apps móviles pertenecientes al programa Exponential
-            Apps.
+            : Desarrollé 11 aplicaciones móviles pertenecientes al programa
+            Exponential Apps.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
