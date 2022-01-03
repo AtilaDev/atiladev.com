@@ -1,12 +1,5 @@
 import NextLink from 'next/link';
-import {
-  Box,
-  Heading,
-  Text,
-  Container,
-  Divider,
-  Button,
-} from '@chakra-ui/react';
+import { Box, Heading, Text, Container, Button } from '@chakra-ui/react';
 import type { NextPage } from 'next';
 
 const NotFound: NextPage = () => {

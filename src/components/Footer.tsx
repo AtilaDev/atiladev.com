@@ -1,3 +1,4 @@
+import * as React from 'react';
 import {
   Stack,
   Text,
@@ -6,7 +7,7 @@ import {
   Divider,
 } from '@chakra-ui/react';
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <VStack pb={8} spacing={8} as='footer' alignItems='flex-start'>
       <Divider />

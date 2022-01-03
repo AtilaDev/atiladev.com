@@ -1,15 +1,17 @@
+import * as React from 'react';
 import Head from 'next/head';
 import { Box, Container, VStack } from '@chakra-ui/react';
 
 import Navigation from '../components/Navigation';
 import Footer from './Footer';
+import { MainLayoutProps } from '../interfaces';
 
 const meta = {
   title: 'Leandro Favre – Software Developer',
   author: 'Leandro Favre',
   shortname: '@FavreLeandro',
   description:
-    "I'm Leandro Favre (@FavreLeandro). I'm a Software Developer currently working as a React Native Developer.",
+    'Soy Leandro Favre (@FavreLeandro). Soy un desarrollador de software actualmente trabajando como React Native Developer.',
   language: 'en-us',
   siteUrl: 'https://www.atiladev.com',
   avatarImage: '/avatar.png',
@@ -19,7 +21,7 @@ const meta = {
   locale: 'en-US',
 };
 
-const MainLayout = ({ children }: any) => {
+const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
     <Box as='main' pb={8}>
       <Head>

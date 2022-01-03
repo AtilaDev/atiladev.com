@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Button, Stack, Link, useMediaQuery } from '@chakra-ui/react';
 import {
   AiOutlineTwitter,
@@ -48,7 +49,7 @@ const socialLinks = [
   },
 ];
 
-const Contact = () => {
+const Contact: React.FC = () => {
   const [isMobile] = useMediaQuery('(max-width: 768px)');
 
   return (

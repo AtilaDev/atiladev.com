@@ -1,7 +1,8 @@
+import * as React from 'react';
 import { Text, Box, Stack, VStack, Heading } from '@chakra-ui/react';
 import ExternalLink from './ExternalLink';
 
-const Iam = () => {
+const Iam: React.FC = () => {
   return (
     <Box pt={40}>
       <Stack

@@ -1,20 +1,16 @@
+import * as React from 'react';
 import NextLink from 'next/link';
-import {
-  Box,
-  Flex,
-  HStack,
-  Link,
-  useColorModeValue,
-  Container,
-  Text,
-  Stack,
-} from '@chakra-ui/react';
-
+import { Box, Flex, HStack, Link, useColorModeValue } from '@chakra-ui/react';
 import ThemeButton from './ThemeButton';
-
 import Logo from './Logo';
+import { LinkItemProps } from '../interfaces';
 
-const LinkItem = ({ href, _target, children, ...props }: any) => {
+const LinkItem: React.FC<LinkItemProps> = ({
+  href,
+  _target,
+  children,
+  ...props
+}) => {
   return (
     <NextLink href={href} passHref>
       <Link
@@ -52,7 +48,6 @@ const Navigation = () => {
 
         <HStack as={'nav'} spacing={6} display={{ base: 'flex' }}>
           <LinkItem href='/'>Inicio</LinkItem>
-          {/* <LinkItem href='/blog'>Blog</LinkItem> */}
           <ThemeButton />
         </HStack>
       </Flex>
