@@ -18,8 +18,8 @@ const Footer = () => {
         spacing={0}
         gridRowGap={4}
       >
-        <Text color={useColorModeValue('gray.600', 'white')}>
-          &copy;&nbsp; 2019-
+        <Text color={useColorModeValue('gray.600', 'gray.400')}>
+          &copy;&nbsp; 2017-
           {`${new Date().getFullYear()} Leandro Favre · Todos los derechos reservados.`}
         </Text>
       </Stack>

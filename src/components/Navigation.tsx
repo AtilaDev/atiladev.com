@@ -1,5 +1,16 @@
 import NextLink from 'next/link';
-import { Box, Flex, HStack, Link } from '@chakra-ui/react';
+import {
+  Box,
+  Flex,
+  HStack,
+  Link,
+  useColorModeValue,
+  Container,
+  Text,
+  Stack,
+} from '@chakra-ui/react';
+
+import ThemeButton from './ThemeButton';
 
 import Logo from './Logo';
 
@@ -25,18 +36,27 @@ const LinkItem = ({ href, _target, children, ...props }: any) => {
 
 const Navigation = () => {
   return (
-    <Flex h={20} alignItems={'center'} justifyContent={'space-around'}>
-      <HStack spacing={8} alignItems={'center'}>
-        <Box>
-          <Logo />
-        </Box>
-      </HStack>
+    <Box
+      position='fixed'
+      as='nav'
+      w='100%'
+      zIndex={1}
+      bg={useColorModeValue('#fff', '#1A202C')}
+    >
+      <Flex h={20} alignItems={'center'} justifyContent={'space-around'}>
+        <HStack spacing={8} alignItems={'center'}>
+          <Box>
+            <Logo />
+          </Box>
+        </HStack>
 
-      <HStack as={'nav'} spacing={6} display={{ base: 'flex' }}>
-        <LinkItem href='/'>Inicio</LinkItem>
-        {/* <LinkItem href='/blog'>Blog</LinkItem> */}
-      </HStack>
-    </Flex>
+        <HStack as={'nav'} spacing={6} display={{ base: 'flex' }}>
+          <LinkItem href='/'>Inicio</LinkItem>
+          {/* <LinkItem href='/blog'>Blog</LinkItem> */}
+          <ThemeButton />
+        </HStack>
+      </Flex>
+    </Box>
   );
 };
 

@@ -3,7 +3,7 @@ import ExternalLink from './ExternalLink';
 
 const Iam = () => {
   return (
-    <Box pt={20}>
+    <Box pt={40}>
       <Stack
         alignItems='center'
         spacing={12}
