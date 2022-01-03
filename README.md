@@ -8,7 +8,7 @@ Este es mi [sitio web personal](https://www.atiladev.com/), en el cual podrás e
 - [ChakraUI](https://chakra-ui.com/)
 - [React Icons](https://react-icons.github.io/react-icons)
 
-### To-Do
+### To-Do ✅
 
 - [x] Responsive
 - [x] Agregar Dark mode
