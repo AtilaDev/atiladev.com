@@ -27,8 +27,8 @@ const Iam: React.FC = () => {
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             Soy Desarrollador de Software. Actualmente trabajo para{' '}
-            <ExternalLink href='http://www.atiladev.com'>AtilaDev</ExternalLink>{' '}
-            como <strong>React Native Developer Freelance</strong>.
+            <ExternalLink href='https://intive.com/'>intive</ExternalLink> como{' '}
+            <strong>React Native Developer</strong>.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
