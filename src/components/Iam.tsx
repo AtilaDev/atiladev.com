@@ -48,16 +48,16 @@ const Iam: React.FC = () => {
             <ExternalLink href='https://pabloheinig.com/'>
               - Pablo Heinig
             </ExternalLink>
-            : Desarrollé 11 aplicaciones móviles pertenecientes al programa
-            Exponential Apps.
+            : Desarrollé 11 aplicaciones móviles (iOS/Android) pertenecientes al
+            programa Exponential Apps.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://www.tecnofarma.cl/'>
               - TECNOFARMA
             </ExternalLink>
-            : Desarrollé la aplicación Agenda ELFE para el programa Exponential
-            Learning for Excellence.
+            : Desarrollé la aplicación Agenda ELFE (iOS/Android) para el
+            programa Exponential Learning for Excellence.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
