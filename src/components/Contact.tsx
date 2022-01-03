@@ -1,4 +1,4 @@
-import { Button, Stack, Link, Box, Icon } from '@chakra-ui/react';
+import { Button, Stack, Link, useMediaQuery } from '@chakra-ui/react';
 import {
   AiOutlineTwitter,
   AiFillGithub,
@@ -20,56 +20,81 @@ const socialLinks = [
     href: TWITTER_PROFILE,
     label: 'Twitter',
     color: '#1D9CF0',
-    icon: AiOutlineTwitter,
+    icon: <AiOutlineTwitter />,
   },
   {
     href: GITHUB_PROFILE,
     label: 'GitHub',
     color: '#161B22',
-    icon: AiFillGithub,
+    icon: <AiFillGithub />,
   },
   {
     href: POLYWORK_PROFILE,
     label: 'Polywork',
     color: '#BC82CD',
-    icon: SiPolywork,
+    icon: <SiPolywork />,
   },
   {
     href: LINKEDIN_PROFILE,
     label: 'LinkedIn',
     color: '#0C65C2',
-    icon: AiFillLinkedin,
+    icon: <AiFillLinkedin />,
   },
   {
     href: EMAIL,
     label: 'Email',
     color: '#2F944A',
-    icon: AiOutlineMail,
+    icon: <AiOutlineMail />,
   },
 ];
 
 const Contact = () => {
+  const [isMobile] = useMediaQuery('(max-width: 768px)');
+
   return (
-    <Stack spacing={3} direction={{ base: 'row', md: 'row' }}>
-      {socialLinks.map(({ href, label, color, icon }) => (
-        <Button
-          key={href}
-          as={Link}
-          bgColor={color}
-          color='white'
-          variant='primary'
-          href={href}
-          target='_blank'
-          px={2}
-          justifyContent={{ base: 'flex-start', md: 'center' }}
-        >
-          <Box mr={1}>
-            <Icon as={icon} w={5} h={5} />
-          </Box>
-          {label}
-        </Button>
-      ))}
-    </Stack>
+    <>
+      {isMobile ? (
+        <Stack spacing={4} direction={{ base: 'column' }}>
+          {socialLinks.map(({ href, label, color, icon }) => (
+            <Button
+              key={href}
+              as={Link}
+              bgColor={color}
+              color='white'
+              variant='primary'
+              href={href}
+              target='_blank'
+              px={2}
+              leftIcon={icon}
+              width={'250px'}
+              size='lg'
+              justifyContent={{ base: 'center' }}
+            >
+              {label}
+            </Button>
+          ))}
+        </Stack>
+      ) : (
+        <Stack spacing={3} direction={{ base: 'row', md: 'row' }}>
+          {socialLinks.map(({ href, label, color, icon }) => (
+            <Button
+              key={href}
+              as={Link}
+              bgColor={color}
+              color='white'
+              variant='primary'
+              href={href}
+              target='_blank'
+              px={2}
+              leftIcon={icon}
+              justifyContent={{ base: 'flex-start', md: 'center' }}
+            >
+              {label}
+            </Button>
+          ))}
+        </Stack>
+      )}
+    </>
   );
 };
 
