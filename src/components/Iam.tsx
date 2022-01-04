@@ -39,7 +39,7 @@ const Iam: React.FC = () => {
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://atiladev.com/'>- AtilaDev</ExternalLink>
             : Proyecto propio. Desarrollo de soluciones informáticas móviles y
-            web usando ReactJS / React Native.
+            web usando ReactJS | React Native/Expo.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
