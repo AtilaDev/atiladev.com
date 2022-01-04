@@ -13,7 +13,7 @@ const meta = {
   description:
     'Soy Leandro Favre (@FavreLeandro). Soy un desarrollador de software actualmente trabajando como React Native Developer.',
   language: 'en-us',
-  siteUrl: 'https://www.atiladev.com',
+  siteUrl: 'https://atiladev.com',
   avatarImage: '/avatar.png',
   github: 'https://github.com/AtilaDev',
   twitter: 'https://twitter.com/FavreLeandro',
