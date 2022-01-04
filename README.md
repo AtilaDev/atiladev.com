@@ -12,7 +12,8 @@ Este es mi [sitio web personal](https://www.atiladev.com/), en el cual podrás e
 
 - [x] Responsive
 - [x] Agregar Dark mode
-- [ ] Agregar una sección de blog
+- [ ] Agregar sección Tools
+- [ ] Agregar sección Blog
 
 ## Licencia 📄
 
