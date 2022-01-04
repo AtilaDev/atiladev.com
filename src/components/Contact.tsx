@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, Stack, Link, useMediaQuery } from '@chakra-ui/react';
+import { Button, Stack, Link } from '@chakra-ui/react';
 import {
   AiOutlineTwitter,
   AiFillGithub,
@@ -50,52 +50,26 @@ const socialLinks = [
 ];
 
 const Contact: React.FC = () => {
-  const [isMobile] = useMediaQuery('(max-width: 768px)');
-
   return (
-    <>
-      {isMobile ? (
-        <Stack spacing={4} direction={{ base: 'column' }}>
-          {socialLinks.map(({ href, label, color, icon }) => (
-            <Button
-              key={href}
-              as={Link}
-              bgColor={color}
-              color='white'
-              variant='primary'
-              href={href}
-              target='_blank'
-              px={2}
-              leftIcon={icon}
-              width={'250px'}
-              size='lg'
-              justifyContent={{ base: 'center' }}
-            >
-              {label}
-            </Button>
-          ))}
-        </Stack>
-      ) : (
-        <Stack spacing={3} direction={{ base: 'row', md: 'row' }}>
-          {socialLinks.map(({ href, label, color, icon }) => (
-            <Button
-              key={href}
-              as={Link}
-              bgColor={color}
-              color='white'
-              variant='primary'
-              href={href}
-              target='_blank'
-              px={2}
-              leftIcon={icon}
-              justifyContent={{ base: 'flex-start', md: 'center' }}
-            >
-              {label}
-            </Button>
-          ))}
-        </Stack>
-      )}
-    </>
+    <Stack spacing={4} direction={{ base: 'column', md: 'row' }}>
+      {socialLinks.map(({ href, label, color, icon }) => (
+        <Button
+          key={href}
+          as={Link}
+          bgColor={color}
+          color='white'
+          variant='primary'
+          href={href}
+          target='_blank'
+          px={2}
+          leftIcon={icon}
+          width={{ base: '250px', md: '125px' }}
+          justifyContent={{ base: 'center' }}
+        >
+          {label}
+        </Button>
+      ))}
+    </Stack>
   );
 };
 

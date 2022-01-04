@@ -38,8 +38,8 @@ const Iam: React.FC = () => {
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://atiladev.com/'>- AtilaDev</ExternalLink>
-            : Proyecto propio. Desarrollo de soluciones informáticas web y
-            móviles usando ReactJS / React Native.
+            : Proyecto propio. Desarrollo de soluciones informáticas móviles y
+            web usando ReactJS / React Native.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
