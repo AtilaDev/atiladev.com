@@ -28,19 +28,14 @@ const Footer: React.FC = () => {
         <ExternalLink href='https://vercel.com/'>Vercel</ExternalLink>.
       </Text>
       <Divider />
-      <Stack
-        w='full'
-        direction={{ base: 'column', md: 'row' }}
-        alignItems='center'
-        justifyContent={{ base: 'center', md: 'space-between' }}
-        spacing={0}
-        gridRowGap={4}
+
+      <Text
+        color={useColorModeValue('gray.600', 'gray.400')}
+        alignSelf={'center'}
       >
-        <Text color={useColorModeValue('gray.600', 'gray.400')}>
-          &copy;&nbsp; 2017-
-          {`${new Date().getFullYear()} Leandro Favre · Todos los derechos reservados.`}
-        </Text>
-      </Stack>
+        &copy;&nbsp; 2017-
+        {`${new Date().getFullYear()} Leandro Favre · Todos los derechos reservados.`}
+      </Text>
     </VStack>
   );
 };
