@@ -32,8 +32,9 @@ const Iam: React.FC = () => {
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
-            Me dedico al desarrollo de software desde el año 2017. He trabajado
-            en varias empresas, entre las cuales se encuentran:
+            Me dedico al desarrollo de software desde el año 2017 (antes hice
+            algunos pequeños desarrollos). He trabajado en varias empresas,
+            entre las cuales se encuentran:
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
