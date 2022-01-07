@@ -83,6 +83,30 @@ const Iam: React.FC = () => {
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
+            <ExternalLink href='https://atos.net/en/'>- Atos</ExternalLink>:
+            Estuve trabajando para la unidad de negocio{' '}
+            <ExternalLink href='https://www.red-bus.com.ar/'>
+              RedBus
+            </ExternalLink>{' '}
+            Entre varias tareas como responsable técnico, desarrollé las
+            aplicaciones de registro de tarjetas RedBus y mapas online de puntos
+            de ventas de Red Bus Córdoba. Tecnología usada: JavaScript.
+          </Text>
+
+          <Text lineHeight='175%' as='h2' fontSize='lg'>
+            <ExternalLink href='https://www.siemens.com/global/en.html'>
+              - Siemens IT Solutions and Services
+            </ExternalLink>
+            : Estuve trabajando para la unidad de negocio{' '}
+            <ExternalLink href='https://www.red-bus.com.ar/'>
+              RedBus
+            </ExternalLink>{' '}
+            Entre varias tareas como responsable técnico, realicé mantenimiento
+            y desarrollo de nuevos reportes para el Departamento de Transporte
+            de la Municipalidad de Córdoba. Tecnología usada: Java.
+          </Text>
+
+          <Text lineHeight='175%' as='h2' fontSize='lg'>
             También me gusta colaborar con la comunidad Open-Source. Algunas
             herramientas que he desarrollado:
           </Text>
