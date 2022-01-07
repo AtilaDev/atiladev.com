@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, Stack, Link } from '@chakra-ui/react';
+import { Button, Stack, Link, Box } from '@chakra-ui/react';
 import {
   AiOutlineTwitter,
   AiFillGithub,

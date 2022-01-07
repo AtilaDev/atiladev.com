@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Text, Box, Stack, VStack, Heading } from '@chakra-ui/react';
-import ExternalLink from './ExternalLink';
+import { ExternalLink } from '.';
 
 const Iam: React.FC = () => {
   return (
