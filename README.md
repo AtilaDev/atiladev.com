@@ -18,4 +18,4 @@ Este es mi [sitio web personal](https://www.atiladev.com/), en el cual podrás e
 
 ## Licencia 📄
 
-Copyright (c) 2017 - Actualidad. Leandro Favre
+Copyright (c) 2017 - Today. Leandro Favre
