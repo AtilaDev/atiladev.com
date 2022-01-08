@@ -109,7 +109,7 @@ const ToolsUsed: React.FC = () => {
                 />
                 <AtilaProgress
                   label='Meteor.js'
-                  percentage={65}
+                  percentage={60}
                   color='red.600'
                 />
                 <AtilaProgress
