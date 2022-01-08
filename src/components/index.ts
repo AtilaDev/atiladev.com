@@ -5,5 +5,17 @@ import Navigation from './Navigation';
 import MainLayout from './MainLayout';
 import ExternalLink from './ExternalLink';
 import Footer from './Footer';
+import AtilaProgress from './AtilaProgress';
+import ToolsUsed from './ToolsUsed';
 
-export { Iam, Contact, Logo, Navigation, MainLayout, ExternalLink, Footer };
+export {
+  Iam,
+  Contact,
+  Logo,
+  Navigation,
+  MainLayout,
+  ExternalLink,
+  Footer,
+  AtilaProgress,
+  ToolsUsed,
+};

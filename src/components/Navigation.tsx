@@ -1,34 +1,8 @@
 import * as React from 'react';
-import NextLink from 'next/link';
-import { Box, Flex, HStack, Link, useColorModeValue } from '@chakra-ui/react';
+import { Box, Flex, HStack, useColorModeValue } from '@chakra-ui/react';
 import ThemeButton from './ThemeButton';
 import Logo from './Logo';
-import { LinkItemProps } from '../interfaces';
-
-const LinkItem: React.FC<LinkItemProps> = ({
-  href,
-  _target,
-  children,
-  ...props
-}) => {
-  return (
-    <NextLink href={href} passHref>
-      <Link
-        p={2}
-        _target={_target}
-        {...props}
-        _hover={{
-          textDecoration: 'none',
-        }}
-        _focus={{
-          borderColor: 'transparent',
-        }}
-      >
-        {children}
-      </Link>
-    </NextLink>
-  );
-};
+import LinkItem from './LinkItem';
 
 const Navigation = () => {
   return (
@@ -46,8 +20,9 @@ const Navigation = () => {
           </Box>
         </HStack>
 
-        <HStack as={'nav'} spacing={6} display={{ base: 'flex' }}>
+        <HStack as={'nav'} spacing={3} display={{ base: 'flex' }}>
           <LinkItem href='/'>Inicio</LinkItem>
+          <LinkItem href='/tools'>Herramientas</LinkItem>
           <ThemeButton />
         </HStack>
       </Flex>

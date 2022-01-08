@@ -9,3 +9,9 @@ export interface LinkItemProps {
 export interface MainLayoutProps {
   children: React.ReactNode;
 }
+
+export interface AtilaProgressProps {
+  percentage: number;
+  label: string;
+  color: string;
+}
