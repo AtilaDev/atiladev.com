@@ -129,15 +129,11 @@ const ToolsUsed: React.FC = () => {
                   color='green.500'
                 />
                 <AtilaProgress
-                  label='Spanish'
+                  label='Español'
                   percentage={100}
                   color='cyan.500'
                 />
-                <AtilaProgress
-                  label='English'
-                  percentage={65}
-                  color='red.400'
-                />
+                <AtilaProgress label='Inglés' percentage={65} color='red.400' />
               </GridItem>
             </SimpleGrid>
           </Box>
