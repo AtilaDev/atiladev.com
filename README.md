@@ -13,6 +13,7 @@ Este es mi [sitio web personal](https://www.atiladev.com/), en el cual podrás e
 - [x] Responsive
 - [x] Agregar Dark mode
 - [x] Agregar sección Tools
+- [ ] Agregar traducción Español/Inglés
 - [ ] Agregar sección Blog
 
 ## Licencia 📄
