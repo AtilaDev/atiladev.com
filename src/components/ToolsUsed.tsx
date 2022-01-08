@@ -124,6 +124,31 @@ const ToolsUsed: React.FC = () => {
                   color='blue.400'
                 />
                 <AtilaProgress
+                  label='Comunicación'
+                  percentage={100}
+                  color='purple.300'
+                />
+                <AtilaProgress
+                  label='Trab. en Equipo'
+                  percentage={100}
+                  color='purple.300'
+                />
+                <AtilaProgress
+                  label='Cordialidad'
+                  percentage={100}
+                  color='purple.300'
+                />
+                <AtilaProgress
+                  label='Iniciativa'
+                  percentage={100}
+                  color='purple.300'
+                />
+                <AtilaProgress
+                  label='Proactividad'
+                  percentage={100}
+                  color='purple.300'
+                />
+                <AtilaProgress
                   label='Google 😅'
                   percentage={100}
                   color='green.500'
