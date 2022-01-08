@@ -3,6 +3,7 @@ import { Box, Flex, HStack, useColorModeValue } from '@chakra-ui/react';
 import ThemeButton from './ThemeButton';
 import Logo from './Logo';
 import LinkItem from './LinkItem';
+import LanguageSelector from './LanguageSelector';
 
 const Navigation = () => {
   return (
@@ -24,6 +25,7 @@ const Navigation = () => {
           <LinkItem href='/'>Inicio</LinkItem>
           <LinkItem href='/tools'>Herramientas</LinkItem>
           <ThemeButton />
+          <LanguageSelector />
         </HStack>
       </Flex>
     </Box>
