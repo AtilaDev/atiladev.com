@@ -43,7 +43,7 @@ const ToolsUsed: React.FC = () => {
                 />
                 <AtilaProgress
                   label='TypeScript'
-                  percentage={70}
+                  percentage={65}
                   color='blue.500'
                 />
                 <AtilaProgress
