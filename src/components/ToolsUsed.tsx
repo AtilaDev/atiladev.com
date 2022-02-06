@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {
-  Text,
   Box,
   Stack,
   VStack,
@@ -9,8 +8,11 @@ import {
   GridItem,
 } from '@chakra-ui/react';
 import { AtilaProgress } from '.';
+import { useTranslation } from 'react-i18next';
 
 const ToolsUsed: React.FC = () => {
+  const [t] = useTranslation('global');
+
   return (
     <Box pt={40}>
       <Stack
@@ -29,7 +31,7 @@ const ToolsUsed: React.FC = () => {
             alignItems='center'
           >
             <Heading size='lg' as='h1' textAlign={'center'}>
-              Herramientas que uso:
+              {t('toolsUsed.text1')}:
             </Heading>
           </Stack>
 
@@ -124,27 +126,27 @@ const ToolsUsed: React.FC = () => {
                   color='blue.400'
                 />
                 <AtilaProgress
-                  label='Comunicación'
+                  label={t('toolsUsed.text2')}
                   percentage={100}
                   color='purple.300'
                 />
                 <AtilaProgress
-                  label='Trab. en Equipo'
+                  label={t('toolsUsed.text3')}
                   percentage={100}
                   color='purple.300'
                 />
                 <AtilaProgress
-                  label='Cordialidad'
+                  label={t('toolsUsed.text4')}
                   percentage={100}
                   color='purple.300'
                 />
                 <AtilaProgress
-                  label='Iniciativa'
+                  label={t('toolsUsed.text5')}
                   percentage={100}
                   color='purple.300'
                 />
                 <AtilaProgress
-                  label='Proactividad'
+                  label={t('toolsUsed.text6')}
                   percentage={100}
                   color='purple.300'
                 />
@@ -154,11 +156,15 @@ const ToolsUsed: React.FC = () => {
                   color='green.500'
                 />
                 <AtilaProgress
-                  label='Español'
+                  label={t('toolsUsed.text7')}
                   percentage={100}
                   color='cyan.500'
                 />
-                <AtilaProgress label='Inglés' percentage={65} color='red.400' />
+                <AtilaProgress
+                  label={t('toolsUsed.text8')}
+                  percentage={65}
+                  color='cyan.500'
+                />
               </GridItem>
             </SimpleGrid>
           </Box>

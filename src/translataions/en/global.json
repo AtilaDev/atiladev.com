@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "home": "Home",
+    "tools": "Tools"
+  },
+  "iam": {
+    "hello": "Hey, I am Leandro!",
+    "text1": "I'm a Software Developer. Actually I work for",
+    "text2": "intive",
+    "text3": "company as a",
+    "text4": "React Native Developer",
+    "text5": "I have been dedicated to software development since 2017 (before I did some small developments). I have worked in several companies, among which are:",
+    "text6": ": Owner. Mobile and Web development using ReactJS | React Native/Expo.",
+    "text7": ": I developed 11 mobile applications (iOS/Android) belonging to the Exponential Apps program.",
+    "text8": ": I developed the ELFE Agenda app (iOS/Android) for the Exponential Learning for Excellence program.",
+    "text9": ": I was working in the ",
+    "text10": " team.",
+    "text11": ": I developed a proof of concept in 12 days using ",
+    "text12": ", framework that the company NaranjaX will use in new developments. We made a presentation of this PoC in the Google Development Group Córdoba. Link on Youtube: ",
+    "text13": " I was working for the business unit ",
+    "text14": ". Among various tasks as technical manager, I developed the RedBus card registration applications and online maps of Red Bus Córdoba sales points. Technology used: JavaScript.",
+    "text15": ": I was working for the business unit ",
+    "text16": ". Among several tasks as technical manager, I carried out the maintenance and development of new reports for the Transportation Department of the Municipality of Córdoba. Technology used: Java.",
+    "text17": "I also like to collaborate with the Open-Source community. Some tools I have developed:",
+    "text18": " Utility I developed to collaborate with the Framework ",
+    "text19": ". It contains filters and keyboard shortcuts, facilitating the handling of the utility.",
+    "text20": ": Utility I developed to search for Google Fonts using the library ",
+    "text21": ". Contains keyboard shortcuts and easy access to copy the exact installer of each selected font.",
+    "text22": "I love to travel, meet people, learn and share ideas. If you're interested in working with me or just chatting, don't hesitate to contact me!"
+  },
+  "footer": {
+    "text1": "This site was developed with ",
+    "text2": " and deployed in ",
+    "text3": "All rights reserved"
+  },
+  "toolsUsed": {
+    "text1": "Tools I use",
+    "text2": "Communication",
+    "text3": "Teamwork",
+    "text4": "Cordiality",
+    "text5": "Initiative",
+    "text6": "Proactivity",
+    "text7": "Spanish",
+    "text8": "English"
+  }
+}

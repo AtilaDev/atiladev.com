@@ -4,3 +4,4 @@ export const POLYWORK_PROFILE = 'https://www.polywork.com/favreleandro';
 export const EMAIL = 'mailto:atiladevelop@gmail.com';
 export const LINKEDIN_PROFILE =
   'https://www.linkedin.com/in/leandro-f-7a06a8171/';
+export const ATILA_LANGUAGE_SELECTED = 'atila_language_selected';
