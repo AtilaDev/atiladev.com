@@ -1,11 +1,8 @@
 import * as React from 'react';
 import { Text, Box, Stack, VStack, Heading } from '@chakra-ui/react';
-import { useTranslation } from 'react-i18next';
 import { ExternalLink } from '.';
 
 const Iam: React.FC = () => {
-  const [t] = useTranslation('global');
-
   return (
     <Box pt={40}>
       <Stack
@@ -24,59 +21,62 @@ const Iam: React.FC = () => {
             alignItems='center'
           >
             <Heading size='lg' as='h1'>
-              {t('iam.hello')}
+              ¡Hola, soy Leandro!
             </Heading>
           </Stack>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
-            {t('iam.text1')}{' '}
-            <ExternalLink href='https://intive.com/'>
-              {t('iam.text2')}
-            </ExternalLink>{' '}
-            {t('iam.text3')} <strong>{t('iam.text4')}</strong>.
+            Soy Desarrollador de Software. Actualmente trabajo para{' '}
+            <ExternalLink href='https://intive.com/'>intive</ExternalLink> como{' '}
+            <strong>React Native Developer</strong>.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
-            {t('iam.text5')}
+            Me dedico al desarrollo de software desde el año 2017 (antes hice
+            algunos pequeños desarrollos). He trabajado en varias empresas,
+            entre las cuales se encuentran:
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://atiladev.com/'>- AtilaDev</ExternalLink>
-            {t('iam.text6')}
+            : Proyecto propio. Desarrollo de soluciones informáticas móviles y
+            web usando ReactJS | React Native/Expo.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://pabloheinig.com/'>
               - Pablo Heinig
             </ExternalLink>
-            {t('iam.text7')}
+            : Desarrollé 11 aplicaciones móviles (iOS/Android) pertenecientes al
+            programa Exponential Apps.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://www.tecnofarma.cl/'>
               - TECNOFARMA
             </ExternalLink>
-            {t('iam.text8')}
+            : Desarrollé la aplicación Agenda ELFE (iOS/Android) para el
+            programa Exponential Learning for Excellence.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
-            <ExternalLink href='https://simtlix.com/'>- SimTLiX</ExternalLink>
-            {t('iam.text9')}
-            <ExternalLink href='https://www.avaya.com/en/'>
-              Avaya
-            </ExternalLink>{' '}
-            Spaces{t('iam.text10')}
+            <ExternalLink href='https://simtlix.com/'>- SimTLiX</ExternalLink>:
+            Estuve trabajando en el equipo de{' '}
+            <ExternalLink href='https://www.avaya.com/en/'>Avaya</ExternalLink>{' '}
+            Spaces.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://www.naranjax.com/'>
               - NaranjaX
             </ExternalLink>
-            {t('iam.text11')}
+            : Desarrollé una prueba de concepto en 12 días usando{' '}
             <ExternalLink href='https://developer.apple.com/xcode/swiftui/'>
               SwiftUI
             </ExternalLink>
-            {t('iam.text12')}
+            , framework que la empresa NaranjaX usará en los nuevos desarrollos.
+            Hicimos una presentación de ésta PoC en el Google Development Group
+            Córdoba. Link en Youtube:{' '}
             <ExternalLink href='https://youtu.be/3X1e1DZ7LB4?t=852'>
               Declarative UI Framework: Swift UI
             </ExternalLink>
@@ -85,48 +85,57 @@ const Iam: React.FC = () => {
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://atos.net/en/'>- Atos</ExternalLink>:
-            {t('iam.text13')}
+            Estuve trabajando para la unidad de negocio{' '}
             <ExternalLink href='https://www.red-bus.com.ar/'>
               RedBus
-            </ExternalLink>
-            {t('iam.text14')}
+            </ExternalLink>{' '}
+            Entre varias tareas como responsable técnico, desarrollé las
+            aplicaciones de registro de tarjetas RedBus y mapas online de puntos
+            de ventas de Red Bus Córdoba. Tecnología usada: JavaScript.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://www.siemens.com/global/en.html'>
               - Siemens IT Solutions and Services
             </ExternalLink>
-            {t('iam.text15')}
+            : Estuve trabajando para la unidad de negocio{' '}
             <ExternalLink href='https://www.red-bus.com.ar/'>
               RedBus
-            </ExternalLink>
-            {t('iam.text16')}
+            </ExternalLink>{' '}
+            Entre varias tareas como responsable técnico, realicé mantenimiento
+            y desarrollo de nuevos reportes para el Departamento de Transporte
+            de la Municipalidad de Córdoba. Tecnología usada: Java.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
-            {t('iam.text17')}
+            También me gusta colaborar con la comunidad Open-Source. Algunas
+            herramientas que he desarrollado:
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://icons.expo.fyi/'>- Icons</ExternalLink>:
-            {t('iam.text18')}
-            <ExternalLink href='https://expo.dev/'>Expo</ExternalLink>
-            {t('iam.text19')}
+            Utilidad que desarrollé para colaborar con el Framework{' '}
+            <ExternalLink href='https://expo.dev/'>Expo</ExternalLink>. Contiene
+            filtros y atajos por teclado, facilitando el manejo de la utilidad.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
             <ExternalLink href='https://directory.now.sh/'>
               - Directory
             </ExternalLink>
-            {t('iam.text20')}
+            : Utilidad que desarrollé para buscar Google Fonts usando la
+            librería{' '}
             <ExternalLink href='https://github.com/expo/google-fonts'>
               @expo-google-fonts
             </ExternalLink>
-            {t('iam.text21')}
+            . Contiene atajos por teclado y accesos fáciles para copiar el
+            instalador exacto de cada font seleccionada.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
-            {t('iam.text22')}
+            Me encanta viajar, conocer gente, aprender y compartir ideas. Si
+            estás interesado en trabajar conmigo o simplemente conversar, ¡no
+            dudes en contactarme!
           </Text>
         </VStack>
       </Stack>

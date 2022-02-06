@@ -7,7 +7,6 @@ import ExternalLink from './ExternalLink';
 import Footer from './Footer';
 import AtilaProgress from './AtilaProgress';
 import ToolsUsed from './ToolsUsed';
-import LanguageButton from './LanguageButton';
 
 export {
   Iam,
@@ -19,5 +18,4 @@ export {
   Footer,
   AtilaProgress,
   ToolsUsed,
-  LanguageButton,
 };
