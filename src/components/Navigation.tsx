@@ -3,8 +3,12 @@ import { Box, Flex, HStack, useColorModeValue } from '@chakra-ui/react';
 import ThemeButton from './ThemeButton';
 import Logo from './Logo';
 import LinkItem from './LinkItem';
+import LanguageButton from './LanguageButton';
+import { useTranslation } from 'next-i18next';
 
-const Navigation = () => {
+export default function Navigation() {
+  const { t } = useTranslation();
+
   return (
     <Box
       position='fixed'
@@ -21,13 +25,12 @@ const Navigation = () => {
         </HStack>
 
         <HStack as={'nav'} spacing={3} display={{ base: 'flex' }}>
-          <LinkItem href='/'>Inicio</LinkItem>
-          <LinkItem href='/tools'>Herramientas</LinkItem>
+          <LinkItem href='/'>{t('navigation.home')}</LinkItem>
+          <LinkItem href='/tools'>{t('navigation.tools')}</LinkItem>
           <ThemeButton />
+          <LanguageButton />
         </HStack>
       </Flex>
     </Box>
   );
-};
-
-export default Navigation;
+}
