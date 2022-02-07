@@ -96,7 +96,7 @@ const ToolsUsed: React.FC = () => {
                 />
                 <AtilaProgress
                   label='Next.js'
-                  percentage={60}
+                  percentage={65}
                   color='gray.400'
                 />
                 <AtilaProgress
