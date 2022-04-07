@@ -163,7 +163,7 @@ const ToolsUsed: React.FC = () => {
                 <AtilaProgress
                   label={t('toolsUsed.text8')}
                   percentage={65}
-                  color='red.400'
+                  color='cyan.500'
                 />
               </GridItem>
             </SimpleGrid>
