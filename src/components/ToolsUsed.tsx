@@ -40,7 +40,7 @@ const ToolsUsed: React.FC = () => {
               <GridItem colSpan={2}>
                 <AtilaProgress
                   label='JavaScript'
-                  percentage={88}
+                  percentage={90}
                   color='yellow.500'
                 />
                 <AtilaProgress
@@ -55,13 +55,18 @@ const ToolsUsed: React.FC = () => {
                 />
                 <AtilaProgress
                   label='React Native'
-                  percentage={85}
+                  percentage={92}
                   color='blue.300'
                 />
                 <AtilaProgress
                   label='Expo'
                   percentage={92}
                   color='purple.500'
+                />
+                <AtilaProgress
+                  label={`RN Testing Lib`}
+                  percentage={83}
+                  color='red.600'
                 />
                 <AtilaProgress
                   label='RN Paper'
@@ -108,11 +113,6 @@ const ToolsUsed: React.FC = () => {
                   label='Quasar'
                   percentage={75}
                   color='cyan.600'
-                />
-                <AtilaProgress
-                  label='Meteor.js'
-                  percentage={60}
-                  color='red.600'
                 />
                 <AtilaProgress
                   label='HTML'
@@ -162,7 +162,7 @@ const ToolsUsed: React.FC = () => {
                 />
                 <AtilaProgress
                   label={t('toolsUsed.text8')}
-                  percentage={65}
+                  percentage={80}
                   color='cyan.500'
                 />
               </GridItem>
