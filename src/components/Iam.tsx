@@ -124,6 +124,13 @@ const Iam: React.FC = () => {
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
+            <ExternalLink href='https://github.com/AtilaDev-team/useCalendar'>
+              - useCalendar
+            </ExternalLink>
+            {t('iam.text23')}
+          </Text>
+
+          <Text lineHeight='175%' as='h2' fontSize='lg'>
             {t('iam.text22')}
           </Text>
         </VStack>

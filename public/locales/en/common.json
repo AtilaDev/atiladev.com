@@ -24,6 +24,7 @@
   "iam.text20": ": Utility I developed to search for Google Fonts using the library ",
   "iam.text21": ". Contains keyboard shortcuts and easy access to copy the exact installer of each selected font.",
   "iam.text22": "I love to travel, meet people, learn and share ideas. If you're interested in working with me or just chatting, don't hesitate to contact me!",  
+  "iam.text23": ": Hook that I developed to be used with Expo Calendars to facilitate access to the calendar, managing access permissions, it stores a reference in the device so as not to recreate the same calendar twice.",
   "footer.text1": "This site was developed with ",
   "footer.text2": " and deployed in ",
   "footer.text3": "All rights reserved",
