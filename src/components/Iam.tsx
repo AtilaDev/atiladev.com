@@ -113,7 +113,7 @@ const Iam: React.FC = () => {
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
-            <ExternalLink href='https://directory.now.sh/'>
+            <ExternalLink href='https://directory-by-atiladev-com.netlify.app/'>
               - Directory
             </ExternalLink>
             {t('iam.text20')}
