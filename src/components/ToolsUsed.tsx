@@ -39,18 +39,24 @@ const ToolsUsed: React.FC = () => {
             <SimpleGrid columns={2} columnGap={2} rowGap={2} w={'full'}>
               <GridItem colSpan={2}>
                 <AtilaProgress
+                  label='Flutter'
+                  percentage={78}
+                  color='#61C9F7'
+                />
+                <AtilaProgress label='Dart' percentage={70} color='#00599B' />
+                <AtilaProgress
                   label='JavaScript'
-                  percentage={90}
+                  percentage={92}
                   color='yellow.500'
                 />
                 <AtilaProgress
                   label='TypeScript'
-                  percentage={90}
+                  percentage={92}
                   color='blue.500'
                 />
                 <AtilaProgress
                   label='ReactJS'
-                  percentage={85}
+                  percentage={92}
                   color='blue.300'
                 />
                 <AtilaProgress
@@ -64,36 +70,11 @@ const ToolsUsed: React.FC = () => {
                   color='purple.500'
                 />
                 <AtilaProgress
-                  label={`RN Testing Lib`}
-                  percentage={83}
-                  color='red.600'
-                />
-                <AtilaProgress
-                  label='RN Paper'
-                  percentage={90}
-                  color='purple.700'
-                />
-                <AtilaProgress
-                  label='RN Elements'
-                  percentage={88}
-                  color='cyan.400'
-                />
-                <AtilaProgress
-                  label='NativeBase'
-                  percentage={70}
-                  color='cyan.800'
-                />
-                <AtilaProgress
-                  label='Chakra'
-                  percentage={85}
-                  color='green.400'
-                />
-                <AtilaProgress
                   label='Firebase'
                   percentage={92}
                   color='orange.300'
                 />
-                <AtilaProgress label='Git' percentage={85} color='red.400' />
+                <AtilaProgress label='Git' percentage={92} color='red.400' />
                 <AtilaProgress
                   label='Node.js'
                   percentage={47}
@@ -101,7 +82,7 @@ const ToolsUsed: React.FC = () => {
                 />
                 <AtilaProgress
                   label='Next.js'
-                  percentage={65}
+                  percentage={72}
                   color='gray.400'
                 />
                 <AtilaProgress

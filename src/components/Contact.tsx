@@ -1,11 +1,7 @@
 import * as React from 'react';
 import { Button, Stack, Link, Box } from '@chakra-ui/react';
-import {
-  AiOutlineTwitter,
-  AiFillGithub,
-  AiFillLinkedin,
-  AiOutlineMail,
-} from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+import { FaXTwitter } from 'react-icons/fa6';
 import { SiPolywork } from 'react-icons/si';
 
 import {
@@ -21,19 +17,13 @@ const socialLinks = [
     href: TWITTER_PROFILE,
     label: 'Twitter',
     color: '#1D9CF0',
-    icon: <AiOutlineTwitter />,
+    icon: <FaXTwitter />,
   },
   {
     href: GITHUB_PROFILE,
     label: 'GitHub',
     color: '#161B22',
     icon: <AiFillGithub />,
-  },
-  {
-    href: POLYWORK_PROFILE,
-    label: 'Polywork',
-    color: '#BC82CD',
-    icon: <SiPolywork />,
   },
   {
     href: LINKEDIN_PROFILE,
