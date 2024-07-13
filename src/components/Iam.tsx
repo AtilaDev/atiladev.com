@@ -29,12 +29,6 @@ const Iam: React.FC = () => {
           </Stack>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
-            {t('iam.text1')}
-            <ExternalLink href='https://intive.com/'>intive</ExternalLink>{' '}
-            {t('iam.text3')} <strong>{t('iam.text4')}</strong>.
-          </Text>
-
-          <Text lineHeight='175%' as='h2' fontSize='lg'>
             {t('iam.text5')}
           </Text>
 
@@ -55,6 +49,16 @@ const Iam: React.FC = () => {
               - TECNOFARMA
             </ExternalLink>
             {t('iam.text8')}
+          </Text>
+
+          <Text lineHeight='175%' as='h2' fontSize='lg'>
+            <ExternalLink href='https://intive.com/'>- intive</ExternalLink>
+            {t('iam.text1')}
+            <ExternalLink href='https://www.technisys.com/'>
+              technisys
+            </ExternalLink>
+            {' and '}
+            <ExternalLink href='https://joinmosaic.com/'>Mosaic</ExternalLink>.
           </Text>
 
           <Text lineHeight='175%' as='h2' fontSize='lg'>
