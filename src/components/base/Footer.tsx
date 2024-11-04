@@ -38,7 +38,9 @@ export const Footer = () => {
         </Link>
       </div>
 
-      <p>
+      <p
+        aria-label={`2017-${new Date().getFullYear()} Leandro Favre · All rights reserved`}
+      >
         © 2017-{new Date().getFullYear()} Leandro Favre · All rights reserved
       </p>
     </footer>

@@ -1,5 +1,5 @@
-import { Footer } from "@/components/base/Footer";
 import "./globals.css";
+import { Footer } from "@/components/base/Footer";
 import Navbar from "@/components/base/Navbar";
 import { SectionContainer } from "@/components/base/SectionContainer";
 import type { Metadata } from "next";
@@ -29,11 +29,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${ubuntu.variable} ${inter.variable} bg-gray-800`}
+      className={`${ubuntu.variable} ${inter.variable}`}
       suppressHydrationWarning
     >
       <body>
-        <div className="flex h-screen flex-col">
+        <div className="flex h-screen flex-col bg-gray-800">
           <div>
             <Navbar />
           </div>
