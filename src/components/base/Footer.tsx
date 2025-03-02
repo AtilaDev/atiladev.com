@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
+import { XIcon } from "@/components/social/XIcon";
 import Link from "next/link";
 
 export const Footer = () => {
@@ -6,12 +7,12 @@ export const Footer = () => {
     <footer className="flex w-full flex-col items-center justify-between gap-4 bg-gray-800 py-4 text-neutral-400">
       <div className="flex items-center gap-6">
         <Link
-          href="https://twitter.com/FavreLeandro"
+          href="https://x.com/FavreLeandro"
           target="_blank"
           className="transition-colors hover:text-orange-400"
           aria-label="Check my X"
         >
-          <Twitter className="h-8 w-8" />
+          <XIcon className="h-8 w-8" />
         </Link>
         <Link
           href="https://github.com/AtilaDev"
@@ -30,7 +31,7 @@ export const Footer = () => {
           <Linkedin className="h-8 w-8" />
         </Link>
         <Link
-          href="mailto:atiladevelop@gmail.com"
+          href="mailto:lfavre82@gmail.com"
           className="transition-colors hover:text-orange-400"
           aria-label="Send me an email"
         >
